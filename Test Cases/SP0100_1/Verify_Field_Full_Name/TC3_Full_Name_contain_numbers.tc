@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC3_Full_Name_contain_numbers</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f1e653c1-468c-4773-afdf-f0ef01581031</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>21c2a27b-bcb3-46d4-81c0-5bdd20421080</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Nam123456'</defaultValue>
+      <description></description>
+      <id>21c2a27b-bcb3-46d4-81c0-5bdd20421080</id>
+      <masked>false</masked>
+      <name>FullName</name>
+   </variable>
+</TestCaseEntity>

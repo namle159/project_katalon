@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC1_Full_Name_contains_special_characters_and_numbers</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f9404d01-7cdb-4653-90ae-38f8860be8de</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d9d219c4-ef7c-4c85-9ae2-b89dc09142d7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Nam@123'</defaultValue>
+      <description></description>
+      <id>d9d219c4-ef7c-4c85-9ae2-b89dc09142d7</id>
+      <masked>false</masked>
+      <name>FullName</name>
+   </variable>
+</TestCaseEntity>

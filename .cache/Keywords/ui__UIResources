@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "31DA69FC23FA9200F5ED77022220EB54",
+  "keywordClasses": [
+    {
+      "name": "ui.UIResources",
+      "keywordMethods": [
+        {
+          "name": "TakeScreenshot",
+          "parameters": [
+            {
+              "name": "screenshot_name",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC4_Valid_Full_Name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d416b5af-8003-41c9-871d-c40ecd550013</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>862c0b1d-8762-488b-9cbf-0dc0ae179338</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'NamLe'</defaultValue>
+      <description></description>
+      <id>862c0b1d-8762-488b-9cbf-0dc0ae179338</id>
+      <masked>false</masked>
+      <name>FullName</name>
+   </variable>
+</TestCaseEntity>

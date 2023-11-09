@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>SP0100_1</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>623e6435-69be-4377-b6d5-aba0f76dee08</testSuiteGuid>
+   <testCaseLink>
+      <guid>3746be36-54af-4965-b655-1089f4f8b0bb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SP0100_1/Verify_Email/TC1_Valid_Email</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>84dc0fd8-9db6-47d0-aa06-323c31a4f9b7</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7d775ddd-ae73-48df-8dd9-6f605fb59eee</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SP0100_1/Verify_Email/TC2_Invalid_Email_1</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>dbc12ade-fbb6-46ac-8609-05d56f81cfbc</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>04576c6d-6e16-4398-9600-492725747f2f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SP0100_1/Verify_Email/TC3_Invalid_Email_2</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>29ca14dd-59cf-427f-8eeb-fd0d04da8974</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>db3ed7f9-8e62-4c54-ad38-0605e1f06bfa</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SP0100_1/Verify_Email/TC4_Invalid_Email_3</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e37f77a7-0760-4ff8-8a08-ec0469cf3eca</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c26618de-b9e4-4670-8ac5-0cef4f083cbe</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SP0100_1/Verify_Field_Full_Name/TC1_Full_Name_contains_special_characters_and_numbers</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d9d219c4-ef7c-4c85-9ae2-b89dc09142d7</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a429dc4a-8da7-4187-beea-94188f87f9a3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SP0100_1/Verify_Field_Full_Name/TC2_Full_Name_contain_special_characters</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>924df9ef-b88b-4551-aaba-b13d393f4b13</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5a5b8733-d8b8-4655-90aa-6ce5bda98f49</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SP0100_1/Verify_Field_Full_Name/TC3_Full_Name_contain_numbers</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>21c2a27b-bcb3-46d4-81c0-5bdd20421080</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f49cb193-4438-45a0-b505-78a372fcc625</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SP0100_1/Verify_Field_Full_Name/TC4_Valid_Full_Name</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>862c0b1d-8762-488b-9cbf-0dc0ae179338</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0eaad904-cd57-480d-bc9d-2ba94320c67e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SP0100_1/Verify_Information_Display/TC1_Verify_Information_Display</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+</TestSuiteEntity>

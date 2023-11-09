@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC2_Verify_Data_Tables</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3a178441-4454-4218-a605-91be04df11fc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b1ab4b28-4af2-4fb7-beea-a5da5832d761</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('ListUser').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>b1ab4b28-4af2-4fb7-beea-a5da5832d761</id>
+      <masked>false</masked>
+      <name>DataCheck</name>
+   </variable>
+</TestCaseEntity>
