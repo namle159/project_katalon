@@ -18,33 +18,36 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.openBrowser('')
+WebUI.openBrowser(GlobalVariable.URL)
 
 'Open page Text Box'
-WebUI.navigateToUrl(GlobalVariable.URL)
+//WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.maximizeWindow()
 
-CustomKeywords.'ui.UIResources.TakeScreenshot'('TC1_Valid_Email_ss009.png')
+//CustomKeywords.'ui.UIResources.TakeScreenshot'('TC1_Valid_Email_ss009.png')
+//
+//'Input valid email'
+//WebUI.setText(findTestObject('Text_Box_Page/Page_DEMOQA/input_Email_userEmail'), Email)
+//
+//CustomKeywords.'ui.UIResources.TakeScreenshot'('TC1_Valid_Email_ss001.png')
+//
+//WebUI.click(findTestObject('Object Repository/Text_Box_Page/Page_DEMOQA/button_Submit'))
+//
+//CustomKeywords.'ui.UIResources.TakeScreenshot'('TC1_Valid_Email_ss002.png')
+//
+//WebUI.delay(2)
+//
+//'Verify data email present at the end of the page'
+//WebUI.verifyElementText(findTestObject('Text_Box_Page/Page_DEMOQA/p_Emailnamgmail.com'), 'Email:' + Email)
+//
+//
+//KeywordUtil.logInfo(WebUI.getText(findTestObject('Object Repository/Text_Box_Page/Page_DEMOQA/p_Emailabcgmail.com')))
+//
+//KeywordUtil.logInfo('Email:' + Email)
 
-'Input valid email'
-WebUI.setText(findTestObject('Text_Box_Page/Page_DEMOQA/input_Email_userEmail'), Email)
 
-CustomKeywords.'ui.UIResources.TakeScreenshot'('TC1_Valid_Email_ss001.png')
+//println(WebUI.getUrl())
 
-WebUI.click(findTestObject('Object Repository/Text_Box_Page/Page_DEMOQA/button_Submit'))
-
-CustomKeywords.'ui.UIResources.TakeScreenshot'('TC1_Valid_Email_ss002.png')
-
-WebUI.delay(2)
-
-'Verify data email present at the end of the page'
-WebUI.verifyElementText(findTestObject('Text_Box_Page/Page_DEMOQA/p_Emailnamgmail.com'), 'Email:' + Email)
-
-
-KeywordUtil.logInfo(WebUI.getText(findTestObject('Object Repository/Text_Box_Page/Page_DEMOQA/p_Emailabcgmail.com')))
-
-KeywordUtil.logInfo('Email:' + Email)
-
-WebUI.closeBrowser()
+//WebUI.closeBrowser()
 

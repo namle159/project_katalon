@@ -33,36 +33,15 @@ WebUI.maximizeWindow()
 'Import employees'
 CustomKeywords.'table.TableResources.Import_Employees'()
 
+WebUI.scrollToElement(findTestObject('Page_Web_Table/button_Next'), 0)
+
 'Verify Header in table'
 CustomKeywords.'table.TableResources.Verify_Header'()
 
 CustomKeywords.'ui.UIResources.TakeScreenshot'('TC2_Verify_Data_Tables_ss003.png')
 
 'Verify data in web tables with data in file excel'
-try {
 CustomKeywords.'table.TableResources.Verify_All_Data_Web_Tables'('Data Files/ListUser')
-}
-catch (Exception e)	{
-WebUI.click(findTestObject('Object Repository/Page_Web_Table/button_Next'))
-CustomKeywords.'table.TableResources.Verify_All_Data_Web_Tables'('Data Files/ListUser')
-}
 
-//WebDriver driver = DriverFactory.getWebDriver()
-//
-//for (def colnumb = 1; colnumb <= findTestData('Data Files/ListUser').getColumnNumbers(); colnumb++) {
-//    for (def rownumb = 1; rownumb <= findTestData('Data Files/ListUser').getRowNumbers(); rownumb++) {
-//        WebElement Table = driver.findElement(By.xpath(((('//div[@class="rt-tr-group"][' + rownumb) + ']//div[@class="rt-td"][') + 
-//                colnumb) + ']'))
-//
-//        String celltext = Table.getText()
-//
-//        String expectedText = findTestData('Data Files/ListUser').getValue(colnumb, rownumb)
-//		WebUI.verifyMatch(celltext, expectedText,true)
-//        if (celltext == expectedText) {
-//            print((celltext + ' = ') + expectedText)
-//        }
-//        Thread.sleep(3000)
-//    }
-//}
-WebUI.closeBrowser()
+not_run: WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 

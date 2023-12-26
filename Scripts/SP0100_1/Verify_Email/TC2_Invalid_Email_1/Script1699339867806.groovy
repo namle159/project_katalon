@@ -36,5 +36,5 @@ WebUI.verifyElementNotPresent(findTestObject('Text_Box_Page/Page_DEMOQA/p_Emailn
 
 CustomKeywords.'ui.UIResources.TakeScreenshot'('TC2_Invalid_Email_1_ss004.png')
 
-WebUI.closeBrowser()
+//WebUI.closeBrowser()
 

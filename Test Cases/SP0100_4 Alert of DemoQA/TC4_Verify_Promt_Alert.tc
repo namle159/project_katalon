@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC4_Verify_Promt_Alert</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2c7a1e2e-3289-4e21-bd56-2fb4da295147</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c4f71bf9-0f54-4de7-9b28-7922a464ddf0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Nam'</defaultValue>
+      <description></description>
+      <id>c4f71bf9-0f54-4de7-9b28-7922a464ddf0</id>
+      <masked>false</masked>
+      <name>Name</name>
+   </variable>
+</TestCaseEntity>

@@ -45,35 +45,14 @@ KeywordUtil.logInfo(WebUI.getText(findTestObject('Object Repository/Page_Web_Tab
 'Input validate data in all fields'
 CustomKeywords.'table.TableResources.Fill_Data_In_Fields'()
 
-//WebUI.setText(findTestObject('Page_Web_Table/input_First Name_firstName'), findTestData('Data Files/ListUser').getValue(
-//        1, 1))
-//
-//WebUI.setText(findTestObject('Page_Web_Table/input_Last Name_lastName'), findTestData('Data Files/ListUser').getValue(2, 
-//        1))
-//
-//WebUI.setText(findTestObject('Page_Web_Table/input_Email_userEmail'), findTestData('Data Files/ListUser').getValue(4, 1))
-//
-//WebUI.setText(findTestObject('Page_Web_Table/input_Age_age'), findTestData('Data Files/ListUser').getValue(3, 1))
-//
-//WebUI.setText(findTestObject('Page_Web_Table/input_Salary_salary'), findTestData('Data Files/ListUser').getValue(5, 1))
-//
-//WebUI.setText(findTestObject('Page_Web_Table/input_Department_department'), findTestData('Data Files/ListUser').getValue(
-//        6, 1))
 CustomKeywords.'ui.UIResources.TakeScreenshot'('TC1_Verify_Button_Add_ss002.png')
 
 WebUI.click(findTestObject('Page_Web_Table/button_Submit'))
 
+CustomKeywords.'ui.UIResources.TakeScreenshot'('TC1_Verify_Registration_Form_ss003.png')
+
 'Verify data in table when add new employee'
 CustomKeywords.'table.TableResources.Verify_Add_New_Data'()
 
-//WebDriver driver = DriverFactory.getWebDriver()
-//for(def colnumb=1; colnumb<=findTestData('Data Files/ListUser').getColumnNumbers(); colnumb++) {
-//	WebElement Table = driver.findElement(By.xpath('//div[@class="rt-tr-group"][4]//div[@class="rt-td"]['+ colnumb +']'))
-//	String celltext = Table.getText()
-//	String expectedText = findTestData('Data Files/ListUser').getValue(colnumb, 4)
-//	KeywordUtil.logInfo('Actual result: ' + celltext + '; Expected result: ' + expectedText)
-//	WebUI.verifyMatch(celltext, expectedText,false)
-//	Thread.sleep(3000)
-//}
 WebUI.closeBrowser()
 
