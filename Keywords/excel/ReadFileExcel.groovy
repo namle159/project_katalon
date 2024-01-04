@@ -39,23 +39,23 @@ public class ReadFileExcel {
 
 		int rows = sheet.getLastRowNum()
 		int cells = sheet.getRow(1).getLastCellNum()
-				String cellvalue = sheet.getRow(0).getCell(0).getStringCellValue()
+		String cellvalue = sheet.getRow(0).getCell(0).getStringCellValue()
 
-//		for (int i = 0; i <= rows; i++) {
-//			XSSFRow row = sheet.getRow(i)
-//			for (int j = 0; j < cells; j++) {
-//				XSSFCell cell = row.getCell(j)
-//				switch(cell.getCellType())
-//				{
-//					case STRING: System.out.println(cell.getStringCellValue());break;
-//					case NUMERIC: System.out.println(cell.getNumericCellValue());break;
-//					case BOOLEAN: System.out.println(cell.getBooleanCellValue()); break;
-//				}
-//
-//
-//			}
-//			System.out.println()
-//		}
+		//		for (int i = 0; i <= rows; i++) {
+		//			XSSFRow row = sheet.getRow(i)
+		//			for (int j = 0; j < cells; j++) {
+		//				XSSFCell cell = row.getCell(j)
+		//				switch(cell.getCellType())
+		//				{
+		//					case STRING: System.out.println(cell.getStringCellValue());break;
+		//					case NUMERIC: System.out.println(cell.getNumericCellValue());break;
+		//					case BOOLEAN: System.out.println(cell.getBooleanCellValue()); break;
+		//				}
+		//
+		//
+		//			}
+		//			System.out.println()
+		//		}
 
 		workbook.close()
 		fis.close()
