@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC2_Full_Name_contain_special_characters</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7babc337-8b43-45e4-8e6b-3242d93e520e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>924df9ef-b88b-4551-aaba-b13d393f4b13</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Nam@!@#$'</defaultValue>
+      <description></description>
+      <id>924df9ef-b88b-4551-aaba-b13d393f4b13</id>
+      <masked>false</masked>
+      <name>FullName</name>
+   </variable>
+</TestCaseEntity>

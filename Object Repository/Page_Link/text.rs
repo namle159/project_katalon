@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>text</name>
+   <tag></tag>
+   <elementGuidId>9f1dbda2-8628-41ec-b793-7b52d4891061</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@href=&quot;https://www.toolsqa.com/selenium-training/&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>header > a > img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>c630d522-4b36-445d-9508-2b74c395e873</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/images/Toolsqa.jpg</value>
+      <webElementGuid>9ac85966-cae7-47eb-813c-d733ab080683</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/header[1]/a[1]/img[1]</value>
+      <webElementGuid>965706f6-5d24-4b21-afe9-f3a44a7f9735</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/header/a/img</value>
+      <webElementGuid>4b25fc4d-d303-461b-b3ba-7a0ae2f5db9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//header/a/img</value>
+      <webElementGuid>4cb5e070-7424-466b-8784-3fed837b61e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/images/Toolsqa.jpg']</value>
+      <webElementGuid>45928dba-1a93-467d-b28b-907c09f5ed13</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

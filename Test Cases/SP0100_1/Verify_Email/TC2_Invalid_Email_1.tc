@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC2_Invalid_Email_1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4b9c426d-be22-4303-a428-5043e249fe01</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dbc12ade-fbb6-46ac-8609-05d56f81cfbc</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'namgmail.com'</defaultValue>
+      <description></description>
+      <id>dbc12ade-fbb6-46ac-8609-05d56f81cfbc</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+</TestCaseEntity>

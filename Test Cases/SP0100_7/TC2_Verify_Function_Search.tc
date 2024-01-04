@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC2_Verify_Function_Search</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c7ae3fae-60fe-47c5-bade-709dbc588ac6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9a3a560c-695b-4cd9-80e2-aee3090012a2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9e983083-425b-4772-94d5-caaf428f57f6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Cecil'</defaultValue>
+      <description></description>
+      <id>9a3a560c-695b-4cd9-80e2-aee3090012a2</id>
+      <masked>false</masked>
+      <name>Employee_Name_Hint</name>
+   </variable>
+   <variable>
+      <defaultValue>'Cecil Bonaparte'</defaultValue>
+      <description></description>
+      <id>9e983083-425b-4772-94d5-caaf428f57f6</id>
+      <masked>false</masked>
+      <name>EmployeeName</name>
+   </variable>
+</TestCaseEntity>

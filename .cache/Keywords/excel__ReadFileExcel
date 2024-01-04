@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "52A8463821EDEBF912A5D2EA68F766EB",
+  "keywordClasses": [
+    {
+      "name": "excel.ReadFileExcel",
+      "keywordMethods": [
+        {
+          "name": "getDataExcel",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
